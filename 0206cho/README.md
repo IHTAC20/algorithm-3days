@@ -39,3 +39,6 @@
 
 ### 06.13 - Recursion의 응용
 4-02. 미로 찾기
+
+### 06.14 - Recursion의 응용
+5-02. Counting Cells in a Blob
