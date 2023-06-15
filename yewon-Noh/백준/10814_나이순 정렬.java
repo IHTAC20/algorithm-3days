@@ -1,5 +1,8 @@
 import java.util.*;
 
+/**
+ * `클래스 객체`를 만들어 나이와 이름을 저장한 뒤, `Comparable 클래스`를 사용하여 정렬한다.
+ */
 class Member implements Comparable<Member> {
     private int age;
     private String name;

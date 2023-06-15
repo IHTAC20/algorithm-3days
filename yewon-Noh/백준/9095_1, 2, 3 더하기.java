@@ -1,5 +1,9 @@
 import java.util.*;
 
+/**
+ * n > 4 일때 방법의 수는 `fn[n] = fn[n-1] + fn[n-2] + fn[n-3]`
+> 즉, n이 1부터 11일때까지의 값을 미리 fn[ ]에 저장해두고 `n이 입력되면 fn[n]의 값을 돌려주면 된다.`
+ */
 public class Main {
     static int[] fn = new int[11];
 
