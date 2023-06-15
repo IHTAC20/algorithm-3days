@@ -42,3 +42,6 @@
 
 ### 06.14 - Recursion의 응용
 5-02. Counting Cells in a Blob
+
+### 06.15 - Recursion의 응용
+6-02. N-Queens
