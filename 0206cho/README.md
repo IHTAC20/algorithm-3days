@@ -51,3 +51,5 @@
 
 ### 06.21 - 기본적인 정렬 알고리즘
 8-01. Selection Sort, Bubble Sort, Insertion Sort
+
+### 06.22 - 분할 정복법
