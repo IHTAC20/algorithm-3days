@@ -46,5 +46,8 @@
 ### 06.15 - Recursion의 응용
 6-02. N-Queens
 
-### 06.19 -멱집합 powerset
+### 06.20 - 멱집합 powerset
 7-03. 상대공간트리
+
+### 06.21 - 기본적인 정렬 알고리즘
+8-01. Selection Sort, Bubble Sort, Insertion Sort
