@@ -15,12 +15,12 @@
 
 - **ING**
 
-  | [<img src="https://avatars.githubusercontent.com/u/80824750?v=4" width="200" >]([https://github.com/yewon-Noh](https://github.com/yewon-Noh)) | [<img src="https://avatars.githubusercontent.com/u/68586044?v=4" width="200" >]([https://github.com/0206cho](https://github.com/0206cho)) | [<img src="https://avatars.githubusercontent.com/u/81798537?v=4" width="200" >]([https://github.com/hayeon](https://github.com/hayeon)) |
+  | [<img src="https://avatars.githubusercontent.com/u/80824750?v=4" width="200" >](https://github.com/yewon-Noh) | [<img src="https://avatars.githubusercontent.com/u/68586044?v=4" width="200" >](https://github.com/0206cho) | [<img src="https://avatars.githubusercontent.com/u/81798537?v=4" width="200" >](https://github.com/hayeon) |
   |:---:|:---:|:---:|
   |[노예원](https://github.com/yewon-Noh) <br> 2023.06.05 ~ |[김민솔](https://github.com/0206cho) <br> 2023.06.05 ~ |[양하연](https://github.com/hayeon) <br> 2023.07.03 ~ |
 
 - DONE
 
-  | [<img src="https://avatars.githubusercontent.com/u/81895393?v=4" width="150" >]([https://github.com/MinJu-A](https://github.com/MinJu-A)) |
+  | [<img src="https://avatars.githubusercontent.com/u/81895393?v=4" width="150" >](https://github.com/MinJu-A) |
   |:---:|
   |[김민주](https://github.com/MinJu-A) <br> 2023.06.05 ~ 2023.07.02|
