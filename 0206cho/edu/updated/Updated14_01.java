@@ -1,37 +1,31 @@
 /*
- * 힙의 다른 유용 : 우선순위와 큐 13-01
- * 
- * - 최대 우선순위 큐는 다음의 두 가지 연산을 지원하는 자료구조
- * 		INSERT(x) : 새로운 원소 x를 삽입
- * 		EXTRACT_MAX() : 최대값을 삭제하고 반환
- * - 최소 우선순위 큐는 EXTRACT-MAX 대신 EXTRACT-MIN을 지원하는 자료구조
- * - MAX HEAP을 이용하여 최대 우선순위 큐를 구현	
+ * 정렬의 lower bound : 14-01
+ * comparison Sort
  */
 package edu.updated;
 
 public class Updated14_01 {
-	// INSERT - 시간복잡도 O(log2n)
 	/*
-	 MAX-HEAP-INSERT(A, key) {
-	 	heap_size = heap_size+1;
-	 	A[heap_size] = key;
-	 	i = heap_size;
-	 	while (i > 1 and A[PARENT(i)] < A[i]) {
-	 		exchange A[i] and A[PARENT(i)];
-	 		i = PARENT(i);
-	 	}
-	 }
-	 */
-	
-	// EXTRACT_MAX() - 시간복잡도 O(log2n)
-	/*
-	 HEAP-EXTRACT-MAX(A)
-	 if heap-size[A] < 1
-	 	then error "heap underflow"
-	 max <- A[1]
-	 A[1] <- A[heap-size[A]]
-	 heap-size[A] <- heap-size[A] -1
-	 MAX-HEAPIFY(A, 1)
-	 return max
+	 * [ 정렬 알고리즘의 유형 ]
+	 *  # Comparison sort
+	 *  - 데이터들간의 상대적 크기관계만을 이용해서 정렬하는 알고리즘 
+	 *  - 따라서 데이터들간의 크기 관계가 정의되어 있으면 어떤 데이터에든 적용 가능 (문자열, 알파벳, 사용자 정의 객체 등)
+	 *  - 버블소트, 삽입정렬, 합병정렬, 퀵소트, 힙정렬 등
+	 *  
+	 *  # Non-comparison sort
+	 *  - 정렬할 데이터에 대한 사전지식을 이용 - 적용에 제한
+	 *  - Bucket sort
+	 *  - Radix sort
+	 * 	
+	 * [ 정렬문제의 하한 ]
+	 * # 하한 (Lower bound)
+	 * - 입력된 데이터를 한 번씩 다 보기위해서 최소 O(n)의 시간복잡도 필요
+	 * - 합병정렬과 힙정렬 알고리즘들의 시간복잡도는 O(nlog2n)
+	 * - 어떤 comparison sort알고리즘도 O(nlog2n)보다 나을 수 없음
+	 * 
+	 * [ Decision Tree ]
+	 * - Leaf노드의 개수는 n!개 -> 모든 순열에 해당하기 때문
+	 * - 최악의 경우 시간복잡도는 트리의 높이 
+	 * - 트리의 높이는 height >= log2n! = O(nlog2n)
 	 */
 }
