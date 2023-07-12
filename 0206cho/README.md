@@ -69,3 +69,5 @@
 ### 07.10 - sorting in linear time: Radix Sort
 
 ### 07.11 - java에서의 정렬 (sorting in java)
+
+### 07.12 - 이진검색 트리 : 트리와 이진트리
