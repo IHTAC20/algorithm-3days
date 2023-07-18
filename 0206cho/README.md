@@ -75,3 +75,5 @@
 ### 07.17 - 이진검색 트리 Binary Search Tree
 
 ### 07.18 - 이진검색 트리 Binary Search Tree 2
+
+### 07.19 - 이진검색 트리 Binary Search Tree 3
