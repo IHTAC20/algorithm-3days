@@ -85,3 +85,5 @@
 ### 07.26 - red-black tree 3
 
 ### 07.31 - Hashing
+
+### 08.01 - Hashing 2
