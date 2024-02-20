@@ -1,25 +1,27 @@
-# 처음 생각했던 알고리즘 {인덱스:우선순위로 묶기}
-from collections import deque
-import sys
-input = sys.stdin.readline
+# # 처음 생각했던 알고리즘 {인덱스:우선순위로 묶기}
+# from collections import deque
+# import sys
+# input = sys.stdin.readline
 
-n = int(input())
+# n = int(input())
 
-for _ in range(n):
-    a, b = map(int, input().split())  # 문서의 길이와 찾을 문서의 인덱스
-    arr = list(map(int, input().split()))
-    dic = {}
+# for _ in range(n):
+#     a, b = map(int, input().split())  # 문서의 길이와 찾을 문서의 인덱스
+#     arr = list(map(int, input().split()))
+#     dic = {}
 
-for i in range(a):
-    dic[i] = arr[i]  # {인덱스: 우선순위}
+# for i in range(a):
+#     dic[i] = arr[i]  # {인덱스: 우선순위}
 
-dic = sorted(dic.items(), key=lambda item: item[1], reverse=True)
+# dic = sorted(dic.items(), key=lambda x: x[1], reverse=True)
 
-dicList = [item[0] for item in dic]
-print(dicList.index(b) + 1)
+# dicList = [item[0] for item in dic]
+# print(dicList.index(b) + 1)
 
 # 1966번
+import sys
 input = sys.stdin.readline
+from collections import deque
 
 n = int(input())
 for _ in range(n):
